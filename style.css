@@ -1,11 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .name {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.description {.name e
+.description {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     width: 150px;
+}
+
+#cabeçalho {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #303030;
+    justify-content: space-between;
+    
+}
+
+#cabeçalho div { 
+    margin-left: 50px;
+}
+
+#cabeçalho div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
 }
