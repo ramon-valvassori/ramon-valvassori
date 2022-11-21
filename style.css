@@ -13,6 +13,7 @@
 
 img {
     width: 150px;
+    margin-top: 18px;
 }
 
 #cabeçalho {
@@ -34,5 +35,27 @@ img {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    
+
+}
+
+#cabeçalho div a:hover{
+    color: #ec0062;
+}
+
+#cabeçalho nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-right: 50px;
+    font-size: 18px;
+
+}
+
+#cabeçalho nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#cabeçalho nav ul li a:hover {
+    color: #ec0062;
 }
